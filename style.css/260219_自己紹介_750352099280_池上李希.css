@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+h1#top {
+  text-align: center;
+  font-size: 32px;
+  color: #4a6cf7;
+}
+h2 {
+  border-left: 6px solid#4a6cf7;
+  padding-left: 8px;
+  margin-top: 30px;
+}
+ul {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  list-style: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+}
+.profile ul {
+  flex: 1;
+}
+.profile img {
+  width: 200px;
+  border-radius: 12px;
+}
+table {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+th,
+td {
+  padding: 8px;
+}
+table,th,tr,td{
+  border: solid 1px #000;
+}
+form {
+  background-color: #fff;
+  border-radius: 12px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+input[type="submit"] {
+  background-color: #4a6cf7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #2f4bd1;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.zayu{
+    text-align: center;
+    font-size: 52px;
+    margin-top: 20px;
+    color: #555;
+}
+
+@media screen and (max-width: 480px){
+    h2{
+        margin-top: 20px;
+    }
+    .profile{
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile img{
+        width: 180px;
+    }
+    .zayu{
+        font-size: 36px;
+    }
+}
